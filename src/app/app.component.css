@@ -1,0 +1,40 @@
+#page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intentLink {
+    text-decoration: none;
+}
+
+.c0ffee {
+    transition: .5s;    
+    cursor: pointer;
+    background: #C0FFEE;
+    color: #555;
+    padding: 32px 38px;
+    border-radius: 128px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+    font-size: 2rem;
+    user-select: none;
+}
+
+.c0ffee:hover {
+    transition: .5s;
+    box-shadow: 12px 8px 18px rgba(0,0,0,.5);    
+}
+
+footer {
+    line-height: 1rem;
+    font-size: .8rem;
+    font-weight: 300;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
